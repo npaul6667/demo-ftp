@@ -12,7 +12,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: payrentsjda.org
-        username: ${{ secrets.PAYRENTSJDAUSERNAME }}
-        password: ${{ secrets.PAYRENTSJDAPASSWORD }}
+        username: admin_sjdapayrent
+        password: Sjda@rent#2022
         protocol: ftps
         server-dir: public_html/test/
